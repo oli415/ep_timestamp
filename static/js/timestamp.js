@@ -25,7 +25,10 @@ var insert_timestamp = {
       else
         monthDate = -1;
       var month = convertToName(monthDate, currentDate);
-      var datetime = currentDate.getDate() + ". " + month + currentDate.getFullYear() + " - " + currentDate.getHours() + ":" + currentDate.getMinutes();
+      var minutes = currentDate.getMinutes();
+      if (minutes < 10 && minutes >= 0)
+        minutes = "0" + minutes;
+      var datetime = currentDate.getDate() + ". " + month + currentDate.getFullYear() + " - " + currentDate.getHours() + ":" + minutes;
       ace.ace_replaceRange(rep.selStart, rep.selEnd, datetime);
       ace.ace_focus();
     }, "specialCharacters");
