@@ -1,0 +1,21 @@
+{
+  "name": "ep_timestamp",
+  "version": "0.1.1",
+  "description": "Add a button for inserting timestamps",
+  "main": "static/js/timestamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Oliver Kreuzer",
+    "email": "oliver.kreuzer@gmx.at"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/oli415/ep_timestamp.git"
+  }
+}

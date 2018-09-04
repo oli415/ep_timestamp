@@ -1,0 +1,15 @@
+{
+  "parts": [
+    {
+      "name": "ep_timestamp",
+      "hooks": {
+        "eejsBlock_styles": "ep_timestamp/timestamp",
+        "eejsBlock_scripts": "ep_timestamp/timestamp",
+        "eejsBlock_editbarMenuLeft": "ep_timestamp/timestamp"
+      },
+      "client_hooks": {
+        "postAceInit": "ep_timestamp/static/js/postAceInit:postAceInit"
+      }
+    }
+  ]
+}
