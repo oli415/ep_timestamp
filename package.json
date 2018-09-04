@@ -1,6 +1,6 @@
 {
   "name": "ep_timestamp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add a button for inserting timestamps",
   "main": "static/js/timestamp.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "npm": "*"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/oli415/ep_timestamp.git"
+    "type": "git",
+    "url": "https://github.com/oli415/ep_timestamp.git"
   }
 }
